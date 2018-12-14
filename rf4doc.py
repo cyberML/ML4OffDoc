@@ -10,10 +10,13 @@ from sklearn.metrics import accuracy_score, auc, roc_curve
 # number of arguments
 NUM_ARGS = 2
 
+# number of trees
 NoOfTrees = 100
+
+# random state
 RSEED = 50
 
-# if you don't have anti-virus detection information in your feed, you can comment this out.
+# av scanner detection in your feed, comment this out if not available
 avs = [
         'AV1',
         'AV2',
