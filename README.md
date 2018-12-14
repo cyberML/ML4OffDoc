@@ -1,4 +1,4 @@
-# ML4OfficeDoc
+# ML4OffDoc
 Machine learning (ML) for Microsoft Office Documents (Word, Excel and PowerPoint) based malware detection.
 
 The broad-brush popularity of Microsoft Office documents led them to become one of the main cyber-attacking vectors to 
