@@ -18,6 +18,7 @@ Due to commercial reasons, demo data feed is not provided, but you can create yo
 
 # Dependencies
 Python 3+
+
 Packages: pandas, numpy, sklearn
 # Notes
 To get optimal results, you will need to tune some parameters such as number of trees, train/validation ratio. 
