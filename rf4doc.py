@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, auc, roc_curve
 NUM_ARGS = 2
 
 # number of trees
-NoOfTrees = 100
+NUM_OF_TREES = 100
 
 # random state
 RSEED = 50
@@ -78,8 +78,8 @@ def main(args=[]):
     test_Y = labels[labels.index >= split_ix]
     test_ix = df.index[df.index >= split_ix]
     
-    print('\n\nNo of trees: {}'.format(n))
-    classifier = RandomForestClassifier(n_estimators=noOfTrees, 
+    print('\n\nNo of trees: {}'.format(NUM_OF_TREES))
+    classifier = RandomForestClassifier(n_estimators=NUM_OF_TREES, 
                                         random_state = RSEED,
                                         max_features = 'sqrt',
                                         n_jobs=-1, verbose = 1)
